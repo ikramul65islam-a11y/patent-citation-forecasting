@@ -16,17 +16,7 @@ The code needs project data and configuration files that are not included here, 
 
 ## Data
 
-The repository does not contain patent records, citation counts, paper or financial-report text, keyword clusters, embeddings, fitted models, predictions or SHAP values. The keyword clusters and embeddings are being held for separate publication. Please cite the primary source of the patent citation data and the dissertation when using this code.
-
-## Notes on the results
-
-The evaluation used repeated random patent splits, not a chronological test on later patent cohorts. Patents could also appear in tuning and evaluation roles across different splits, which is a limitation of the results.
-
-Financial-report activity was assigned by reporting-period year. The analysis did not verify that every report was publicly available by the end of that year. SHAP describes how the fitted models used their inputs; it does not establish causal science-push or market-pull effects.
-
-## Citation
-
-Please cite the dissertation and the primary source of the patent citation data. Add the dissertation’s full reference when its publication details are available.
+Data are not included in this repository.Please cite the dissertation and the original patent-data source when referring to the study or its methods.
 
 ## Reuse
 
