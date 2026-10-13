@@ -1,0 +1,40 @@
+# Raw or processed research data: obtain through the documented sources
+/data/**
+!/data/README.md
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.npz
+*.npy
+*.pkl
+*.pickle
+
+# Models, predictions, explanations and run outputs
+*.ubj
+*.model
+*.pt
+*.pth
+*.ckpt
+*_predictions.*
+*_shap.*
+*_importance.*
+final20/
+final_six_xgb_rerun_v1/
+shap_six_xgb_refits/
+shap_all_xgb/
+results/
+outputs/
+
+# Local environments and machine-specific files
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
